@@ -1,0 +1,24 @@
+{
+    "offers" : [
+        {
+            "title" : "Kannan Departmental Stores",
+            "slogan" : "One Point Super Market",
+            "offer" : "12% Flat-off on Vegtables"
+        },
+        {
+            "title" : "RVS College of Arts and Science",
+            "slogan" : "Admissions Open for UG and PG",
+            "offer" : "Discount based on marks"
+        },
+        {
+            "title" : "Hotel Aarya Nivas",
+            "slogan" : "Quality That Matters the Food",
+            "offer" : "10% off on Meals"
+        },
+        {
+            "title" : "Ramraj ShowRoom (SULUR)",
+            "slogan" : "Follow the Tradition",
+            "offer" : "20% off On Dhoties"
+        }
+    ]
+}
