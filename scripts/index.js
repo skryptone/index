@@ -41,15 +41,15 @@ app.controller('conCtrl', function($scope) {
 
     $scope.mail = function(){
         $scope.type = 'E-mail';
-        $scope.msg = 'manojvirat458@gmail.com';
+        $scope.msg = 'admin@skrypto.xyz';
     }
     $scope.phone = function() {
         $scope.type = "Mobile Number";
-        $scope.msg = '9698687059';
+        $scope.msg = '7904664460';
     }
     $scope.blog = function() {
         $scope.type = "Blog Spot";
-        $scope.msg = 'http://www.Dcreations.host22.com';
+        $scope.msg = 'skrypto.xyz';
     }
 });
 app.factory('projectsFactory', function($http) {
