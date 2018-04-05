@@ -1,0 +1,37 @@
+app.factory('projectsFactory', function($http) {
+    var projectFactory = {
+        projectitem : function() {
+            return $http({
+                url: 'DB/projects.json',
+                method : 'GET'
+            }).then(function(response) {
+                return response.data;
+            });
+        }
+    };
+    return projectFactory;
+});
+app.controller('projCtrl', function($scope, projectsFactory) {
+    var promise = projectsFactory.projectitem();
+    
+    promise.then(function(data) {
+        $scope.projectitem = data;
+        console.log(data);
+      });
+      $scope.select = function(title) {
+        $scope.selected = title;
+        console.log(title);
+      }
+      $scope.selected = {};
+
+      $scope.comments = [];
+      $scope.btn_post = function() {
+          if ($scope.cmtName != '') {
+              $scope.comments.push($scope.cmtName);
+              $scope.cmtName = "";
+          }
+      }
+      $scope.post_cmt = function($home) {
+          $scope.comments.splice($home, 1);
+      }
+});
