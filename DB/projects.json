@@ -46,5 +46,29 @@
         "description" : "Small PHP application connectd with Openweathermap.org",
         "status" : "working",
         "website" : "weather-app-php.firebaseapp.com"
+    },
+    {
+        "title" : "SQUIB",
+        "theme" : "Android",
+        "duration" : "5 Months",
+        "description" : "You Read it right!!.. We are on Android too..This App will gets You the best offers near your location.",
+        "status" : "working",
+        "website" : "Yet To Publish"
+    },
+    {
+        "title" : "Scan 2 Shop",
+        "theme" : "Android",
+        "duration" : "5 Months",
+        "description" : "This App will make your shopping experience better, by making the billling automated.",
+        "status" : "working",
+        "website" : "Yet To Publish"
+    },
+    {
+        "title" : "ONmusic",
+        "theme" : "Android",
+        "duration" : "5 Months",
+        "description" : "You can play Online along with offline songs through this single App",
+        "status" : "working",
+        "website" : "Yet To Publish"
     }
 ]
