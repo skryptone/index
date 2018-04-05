@@ -1,0 +1,50 @@
+[
+   {
+        "title" : "Weather App PHP",
+        "theme" : "server interface",
+        "duration" : "2 Days",
+        "description" : "API interfacing PHP server Codes",
+        "status" : "working",
+        "website" : "dcreations.host22.com"
+    },
+    {
+        "title" : "Polyglot Voice Activated Car",
+        "theme" : "Automation",
+        "duration" : "3 Months",
+        "description" : "Audrino Ads-adafruit Motorsheild With Some sensors,which runs with voice commands in different languages",
+        "status" : "working",
+        "website" : "Unavailable"
+    },
+    {
+        "title" : "Home Smart Home!!!",
+        "theme" : "Home Automation",
+        "duration" : "15 Days",
+        "description" : "Using the RASPBERRYPi3 B+ , I have Controlled the electrical appliances through my mobile",
+        "status" : "working",
+        "website" : "Unavilabale"
+    },
+    {
+        "title" : "Foodiees Park",
+        "theme" : "Progressive Web App",
+        "duration" : "2 Months",
+        "description" : "Using IONIC, Angular and Firebase Technology, I have Created A progressive app Which Run in all platforms, such as IOS,Android and and all",
+        "status" : "working",
+        "website" : "foodieespark.firebaseapp.com"
+    },
+    {
+        "title" : "Property Finder",
+        "theme" : "Progressive Web App",
+        "duration" : "2 Months",
+        "description" : "Small java Script application connectd with google maps",
+        "status" : "working",
+        "website" : "properties-finder-app.firebaseapp.com"
+    },
+    {
+        "title" : "Weather Finder",
+        "theme" : "API interaction",
+        "duration" : "1 Months",
+        "description" : "Small PHP application connectd with Openweathermap.org",
+        "status" : "working",
+        "website" : "weather-app-php.firebaseapp.com"
+    }
+]

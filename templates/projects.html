@@ -1,0 +1,47 @@
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Projects</h4>
+      <div class="input-group">
+        <input type="text" class="form-control" ng-model="projects" placeholder="Search Projects..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+      <ul class="nav nav-pills nav-stacked">
+        <li ng-repeat="title in projectitem | filter: projects"><a class="list-group-item" ng-click="select(title)" >{{ title.title}}</a></li>
+      </ul><br>
+      
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>Project Details</small></h4>
+      <hr>
+      <h1>{{ selected.title }}</h1><hr>
+      <h3>{{ "Theme : " + selected.theme }}</h3><hr>
+      <h4>{{ "Duration : " + selected.duration }}</h4><hr>
+      <h4>{{ "Description : " + selected.description }}</h4><hr>
+      <h4>{{ "Status : " + selected.status }}</h4><hr>
+      <h4>{{ "Website : " + selected.website }}</h4><hr>
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="5" ng-model="cmtName" placeholder="Your Comment"></textarea>
+          <br/>
+          <button class="btn btn-primary btn-md pull-right" ng-click='btn_post();'>Comment</button>
+          <br/>
+          <hr/>
+          <h3>Comments</h3>
+          <ul class="list-group">
+              <li class="list-group-item" ng-repeat="cmt in comments"> {{ cmt }}
+                  <a href="" ng-click="post_cmt($home)"><span class="glyphicon glyphicon-trash" style="color:red; float:right;"></span></a>
+              </li>
+          </ul>
+          </div>
+      </form>
+      <br><br>
+    </div>
+  
+</div>
